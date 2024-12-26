@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aroma Shop - Home</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+			  <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
+              <li class="nav-item"><a class="nav-link" href="category.html">商城</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html">部落格</a></li>
+			  <li class="nav-item"><a class="nav-link" href="https://designcrit-c4u9ijyfz95cnwpjgt2c4q.streamlit.app">選禮達人</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">聯絡資訊</a></li>
+            </ul>
+
+            <ul class="nav-shop">
+              <!-- 直接顯示搜尋欄 -->
+              <li class="nav-item">
+                  <button type="submit" class="btn">
+                    <i class="ti-search"></i>
+                  </button>
+                </form>
+              </li>
+            
+              <!-- 購物車 -->
+              <li class="nav-item">
+                <button>
+                  <a class="ti-shopping-cart" href="cart.html"></a>
+                  <span class="nav-shop__circle">1</span>
+                </button>
+              </li>
+            
+              <!-- 登入 -->
+              <li class="nav-item">
+                <a class="button button-header" href="login.html">登入</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================ End Header Menu Area =================-->
+	
+	
+
+
+  <!--================Single Product Area =================-->
+	<div class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+					<div class="owl-carousel owl-theme s_Product_carousel">
+						<div class="single-prd-item">
+							<img class="img-fluid" src="img/hotproduct/aesop_six.png" alt="">
+						</div>
+						<!-- <div class="single-prd-item">
+							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+						</div>
+						<div class="single-prd-item">
+							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+						</div> -->
+					</div>
+				</div>
+
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text">
+					  <h3>Aesop《香水匯集：第一章》</h3>
+					  <h2>$1,400</h2>
+					  <ul class="list">
+						<li><a class="active" href="javascript:void(0)" style="font-weight: bold;">分類 : 香水</a></li>
+						<li><a href="javascript:void(0)" style="font-weight: bold;">狀態 : 有現貨</a></li>
+					  </ul>
+					  <p>Aesop《香水匯集：第一章》是一次迷人的嗅覺探索，結合多款精緻香氛，呈現品牌對於自然與藝術的獨特詮釋。每一款香氣都蘊含獨特的故事與情感，從木質調到花香調，層次豐富，餘韻悠長。無論是日常使用還是特別場合，這套香氛匯集都是體驗奢華氣息與細膩品味的完美選擇。</p>
+					  <div class="product_count d-flex align-items-center mb-4">
+						<label for="qty" class="mr-3">數量:</label>
+						<div class="quantity-controls d-flex align-items-center">
+						  <!-- <button
+							onclick="var result = document.getElementById('sst'); var sst = parseInt(result.value); if (!isNaN(sst)) result.value = sst - 1;"
+							class="reduced items-count" type="button">-</button> -->
+						  <input type="text" name="qty" id="sst" size="2" maxlength="12" value="1" title="Quantity:" class="input-text qty text-center">
+						  <!-- <button
+							onclick="var result = document.getElementById('sst'); var sst = parseInt(result.value); if (!isNaN(sst)) result.value = sst + 1;"
+							class="increase items-count" type="button">+</button> -->
+						</div>
+						<a class="button primary-btn ml-4" href="javascript:void(0)" style="padding: 10px 20px;">加入購物車</a>
+					  </div>
+					</div>
+				  </div>
+	<!--================End Single Product Area =================-->
+
+	<!--================Product Description Area =================-->
+	<section class="product_description_area">
+		<div class="container">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">產品詳情</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+					 aria-selected="false">規格</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+					 aria-selected="false">評論</a>
+				</li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+					<p>
+						產品特點<br>
+						多樣香調：涵蓋木質調、花香調及其他豐富層次，滿足不同嗅覺偏好。<br>
+						長效持香：採用高品質成分，確保香氣持久，餘韻悠長。<br>
+						精美包裝：每瓶香水均配有優雅的包裝，適合作為高端禮品贈送。<br>
+						天然成分：選用純天然植物提取物，無添加有害化學物質，對皮膚友好。<br>
+						環保理念：品牌致力於可持續發展，包裝材料可回收，減少環境負擔。<br><br>
+						香調介紹<br>
+						木質調：溫暖而沉穩，帶來安心與穩定的感覺，適合日常使用。<br>
+						花香調：清新甜美，充滿活力與女性魅力，適合春夏季節。<br>
+						東方調：神秘而奢華，適合夜晚及特殊場合，彰顯獨特品味。<br><br>
+						使用方法<br>
+						噴灑位置：建議將香水噴灑在手腕、脖頸、耳後等脈搏跳動的部位。<br>
+						保持距離：噴灑時保持15-20厘米的距離，以確保香氣均勻分佈。<br>
+						存放方式：置於陰涼乾燥處，避免陽光直射，保持香水的新鮮度。<br><br>
+						關於Aesop<br>
+						Aesop致力於創造高品質、純天然的香氛產品，融合現代設計與傳統工藝，為消費者帶來無與倫比的嗅覺體驗。品牌堅持可持續發展理念，選用環保包裝材料，為地球盡一份心力。
+					</p>
+				</div>
+				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+								產地介紹：澳大利亞<br>Aesop 的產品在澳大利亞精心製作，這片充滿自然美景與豐富植物資源的土地為品牌提供了豐富的靈感來源。澳大利亞多樣的氣候和獨特的植物，如茶樹、檸檬桉和薰衣草，為Aesop的香氛創作提供了獨特的基調。這些天然植物成分不僅為香水帶來豐富的香氣層次，也賦予產品純淨與天然的特質。<br><br>
+								主要成分：<br>
+								檸檬桉：帶來清新的柑橘香氣，提神醒腦。<br>
+								茶樹油：具有抗菌特性，清新怡人。<br>
+								薰衣草：提供舒緩的花香，放鬆身心。<br>
+								雪松木：增添溫暖的木質香調，提升整體香氣的深度。
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="comment_list">
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img src="img/product/review-1.png" alt="">
+										</div>
+										<div class="media-body">
+											<h4>Blake Ruiz</h4>
+											<h5>12th Feb, 2018 at 05:56 pm</h5>
+											<a class="reply_btn" href="javascript:void(0)">Reply</a>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo</p>
+								</div>
+								<div class="review_item reply">
+									<div class="media">
+										<div class="d-flex">
+											<img src="img/product/review-2.png" alt="">
+										</div>
+										<div class="media-body">
+											<h4>Blake Ruiz</h4>
+											<h5>12th Feb, 2018 at 05:56 pm</h5>
+											<a class="reply_btn" href="javascript:void(0)">Reply</a>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo</p>
+								</div>
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img src="img/product/review-3.png" alt="">
+										</div>
+										<div class="media-body">
+											<h4>Blake Ruiz</h4>
+											<h5>12th Feb, 2018 at 05:56 pm</h5>
+											<a class="reply_btn" href="javascript:void(0)">Reply</a>
+										</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="review_box">
+								<h4>Post a comment</h4>
+								<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name" name="name" placeholder="Your Full name">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" class="form-control" id="number" name="number" placeholder="Phone Number">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<div class="col-md-12 text-right">
+										<button type="submit" value="submit" class="btn primary-btn">Submit Now</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="row total_rate">
+								<div class="col-6">
+									<div class="box_total">
+										<h5>總評分</h5>
+										<h4>5.0</h4>
+										<h6>(3 則評論)</h6>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="rating_list">
+										<h3>根據 3 則評論</h3>
+										<ul class="list">
+											<li><a href="javascript:void(0)">5 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													 class="fa fa-star"></i><i class="fa fa-star"></i> 3</a></li>
+											<li><a href="javascript:void(0)">4 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													 class="fa fa-star"></i><i class="fa fa-star"></i> 0</a></li>
+											<li><a href="javascript:void(0)">3 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													 class="fa fa-star"></i><i class="fa fa-star"></i> 0</a></li>
+											<li><a href="javascript:void(0)">2 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													 class="fa fa-star"></i><i class="fa fa-star"></i> 0</a></li>
+											<li><a href="javascript:void(0)">1 Star <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													 class="fa fa-star"></i><i class="fa fa-star"></i> 0</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="review_list">
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img src="img/product/review-1.png" alt="">
+										</div>
+										<div class="media-body">
+											<h4>小李子</h4>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<p>這套香氛匯集讓我每天都能享受到不同的香氣體驗，無論是工作還是休閒時光，都感覺特別舒適和自信。</p>
+								</div>
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img src="img/product/review-2.png" alt="">
+										</div>
+										<div class="media-body">
+											<h4>老王</h4>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<p>Aesop 的香水總是能夠完美捕捉我的心情，這套《香水匯集：第一章》更是我的最愛，層次感十足，回味無窮。</p>
+								</div>
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img src="img/product/review-3.png" alt="">
+										</div>
+										<div class="media-body">
+											<h4>ㄚ陳</h4>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<p>自從使用Aesop《香水匯集：第一章》，我家的貓咪竟然開始每天早上叫醒我，不是因為餓了，而是因為它們也想要一點香氣來裝點它們的貓窩！看來這套香氛不僅讓我迷人，連我的毛孩們也不例外！</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="review_box">
+								<h4>留下評論吧</h4>
+								<p>評分:</p>
+								<ul class="list">
+									<li><a href="javascript:void(0)"><i class="fa fa-star"></i></a></li>
+									<li><a href="javascript:void(0)"><i class="fa fa-star"></i></a></li>
+									<li><a href="javascript:void(0)"><i class="fa fa-star"></i></a></li>
+									<li><a href="javascript:void(0)"><i class="fa fa-star"></i></a></li>
+									<li><a href="javascript:void(0)"><i class="fa fa-star"></i></a></li>
+								</ul>
+
+                <form action="javascript:void(0)" class="form-contact form-review mt-3">
+                  <div class="form-group">
+                    <textarea class="form-control different-control w-100" name="textarea" id="textarea" cols="30" rows="5" placeholder="Enter Message"></textarea>
+                  </div>
+                  <div class="form-group text-center text-md-right mt-3">
+                    <button type="submit" class="button button--active button-review">送出評論</button>
+                  </div>
+                </form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Product Description Area =================-->
+	
+
+  	<!--================ Start footer Area  =================-->	
+	<footer class="footer">
+		<div class="footer-area">
+			<div class="container">
+				<div class="row section_gap">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title large_title">我們的目標</h4>
+							<p>
+				我們始終堅信，送禮不只是購物行為，而是一種情感的表達。因此，我們的目標是以豐富多元的好物、專屬客製化服務，
+				讓每一分心意都能完美抵達。
+			</p>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">快速連結</h4>
+							<ul class="list">
+								<li><a href="index.html">首頁</a></li>
+								<li><a href="https://designcrit-c4u9ijyfz95cnwpjgt2c4q.streamlit.app">選禮達人</a></li>
+								<li><a href="category.html">商城</a></li>
+								<li><a href="blog.html">部落格</a></li>
+								<li><a href="contact.html">聯絡資訊</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget instafeed">
+							<h4 class="footer_title">創辦人</h4>
+							<ul class="list instafeed d-flex flex-wrap">
+								<li><img src="img/gallery/plus.png" alt="">傅子珈</li>
+								<li><img src="img/gallery/multiply.png" alt="">黃奕誠</li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">聯絡我們</h4>
+							<div class="ml-40">
+								<p class="sm-head">
+									<span class="fa fa-location-arrow"></span>
+									店面地址
+								</p>
+								<p>國立政治大學藝文中心 2F</p>
+
+								<p class="sm-head">
+									<span class="fa fa-phone"></span>
+									電話
+								</p>
+								<p>
+									886-2-5201314
+								</p>
+
+								<p class="sm-head">
+									<span class="fa fa-envelope"></span>
+									電子郵件
+								</p>
+								<p>
+									designcrit04@gmail.com
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row d-flex">
+					<p class="col-lg-12 footer-text text-center">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--================ End footer Area  =================-->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

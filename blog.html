@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aroma Shop - Blog</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--================ Start Header Menu Area =================-->
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+			  <li class="nav-item"><a class="nav-link" href="index.html">首頁</a></li>
+              <li class="nav-item"><a class="nav-link" href="category.html">商城</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html">部落格</a></li>
+			  <li class="nav-item"><a class="nav-link" href="https://designcrit-c4u9ijyfz95cnwpjgt2c4q.streamlit.app">選禮達人</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">聯絡資訊</a></li>
+            </ul>
+
+            <ul class="nav-shop">
+              <!-- 直接顯示搜尋欄 -->
+              <li class="nav-item">
+                  <button type="submit" class="btn">
+                    <i class="ti-search"></i>
+                  </button>
+                </form>
+              </li>
+            
+              <!-- 購物車 -->
+              <li class="nav-item">
+                <button>
+                  <a class="ti-shopping-cart" href="cart.html"></a>
+                  <span class="nav-shop__circle">1</span>
+                </button>
+              </li>
+            
+              <!-- 登入 -->
+              <li class="nav-item">
+                <a class="button button-header" href="login.html">登入</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!--================ End Header Menu Area =================-->
+
+
+  <!-- ================ start banner area ================= -->	
+  <section class="blog-banner-area" id="blog">
+    <div class="container h-100">
+      <div class="blog-banner">
+        <div class="text-center">
+          <h1>部落格</h1>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">「探索最新禮物趨勢與專家建議，讓每一次送禮都更有心意。」</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================ end banner area ================= -->
+
+
+  <!--================Blog Categorie Area =================-->
+  <section class="blog_categorie_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="categories_post">
+                <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-3.jpg" alt="post">
+                <div class="categories_details">
+                    <div class="categories_text">
+                        <a href="single-blog.html">
+                            <h5>聖誕好禮</h5>
+                        </a>
+                        <div class="border_line"></div>
+                        <p>精選聖誕好禮，讓您的節日充滿溫馨與驚喜！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="categories_post">
+            <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-2.jpg" alt="post">
+            <div class="categories_details">
+              <div class="categories_text">
+                <a href="single-blog.html">
+                    <h5>選購指南</h5>
+                </a>
+                <div class="border_line"></div>
+                <p>專業選購指南，助您輕鬆挑選最貼心的完美禮物。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="categories_post">
+                <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-1.jpg" alt="post">
+                <div class="categories_details">
+                    <div class="categories_text">
+                        <a href="single-blog.html">
+                            <h5>送禮禁忌</h5>
+                        </a>
+                        <div class="border_line"></div>
+                        <p>避開送禮雷區，掌握送禮禁忌，讓心意傳達無懈可擊。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================Blog Categorie Area =================-->
+
+  <!--================Blog Area =================-->
+  <section class="blog_area">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="blog_left_sidebar">
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a class="active" href="javascript:void(0)">聖誕好禮,</a>
+                                      <a class="active" href="javascript:void(0)">選購指南,</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#">Rena Chiang
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">18 Dec, 2024
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">125 Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">0 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/news1.png" alt="">
+                                  <div class="blog_details">
+                                      <a href="https://www.blog.popchill.com/post/xmasgift">
+                                          <h2>2024聖誕禮物大集合：適合各種預算/高CP值的心意禮物！</h2>
+                                      </a>
+                                      <p>本文精心挑選了2024年最具心意和高CP值的聖誕禮物，可以根據你的預算挑選出完美的禮物！涵蓋廣泛的種類選擇，像是精緻的小巧飾品、實用的日常用品，以及獨特的個性化禮物...</p>
+                                      <a class="button button-blog" href="https://www.blog.popchill.com/post/xmasgift">查看更多</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                    <a class="active" href="javascript:void(0)">聖誕好禮,</a>
+                                    <a class="active" href="javascript:void(0)">選購指南,</a>
+                                </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#">送禮精選｜Citie Gifts
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">21 Nov, 2024
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">1651 Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">2 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/news2.png" alt="">
+                                  <div class="blog_details">
+                                      <a href="https://www.citiesocial.com/a/blog/%E8%81%96%E8%AA%95%E7%A6%AE%E7%89%A9%E6%8E%A8%E8%96%A6?srsltid=AfmBOorxmhx3rwH7EYAax9ibDuvVDcj-ADcyrNAsIs8vEX1A5EqY29Wb">
+                                          <h2>2024 精選聖誕禮物推薦，交換禮物、天堂地獄禮物、年末送禮不再煩惱！</h2>
+                                      </a>
+                                      <p>不要為交換禮物、年末送禮苦惱了，2024 年人氣聖誕禮物推薦給你！以下整理八種熱門聖誕禮物主題，針對不同送禮對象提供選禮方向與心法，即使預算有限，也能送禮送到點子上！</p>
+                                      <a href="https://www.citiesocial.com/a/blog/%E8%81%96%E8%AA%95%E7%A6%AE%E7%89%A9%E6%8E%A8%E8%96%A6?srsltid=AfmBOorxmhx3rwH7EYAax9ibDuvVDcj-ADcyrNAsIs8vEX1A5EqY29Wb" class="button button-blog">查看更多</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                    <a class="active" href="javascript:void(0)">聖誕好禮,</a>
+                                    <a class="active" href="javascript:void(0)">選購指南,</a>
+                                </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#">果嶼
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">13 Dec, 2023
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">572 Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">2 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/news3.png" alt="">
+                                  <div class="blog_details">
+                                      <a href="https://www.guoyugoodisland.com/blog/posts/%E8%B6%85%E5%AF%A6%E7%94%A8%E8%81%96%E8%AA%95%E4%BA%A4%E6%8F%9B%E6%8F%90%E6%A1%88%EF%BC%8C%E9%80%81%E7%A6%AE%E5%86%8D%E4%B9%9F%E4%B8%8D%E6%93%94%E5%BF%83%EF%BC%81">
+                                          <h2>超實用聖誕交換提案，送禮再也不擔心！</h2>
+                                      </a>
+                                      <p>挑選聖誕禮物卻是一項讓人頭痛的任務，我們總是陷入選擇困難症。為了解決這個困擾，以下提供了一些超實用的聖誕交換禮物建議，讓你輕鬆面對挑選禮物的種種煩惱，送禮再也不擔心！</p>
+                                      <a href="https://www.guoyugoodisland.com/blog/posts/%E8%B6%85%E5%AF%A6%E7%94%A8%E8%81%96%E8%AA%95%E4%BA%A4%E6%8F%9B%E6%8F%90%E6%A1%88%EF%BC%8C%E9%80%81%E7%A6%AE%E5%86%8D%E4%B9%9F%E4%B8%8D%E6%93%94%E5%BF%83%EF%BC%81" class="button button-blog">查看更多</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      
+                      <nav class="blog-pagination justify-content-center d-flex">
+                          <ul class="pagination">
+                              <li class="page-item">
+                                  <a href="javascript:void(0)" class="page-link" aria-label="Previous">
+                                      <span aria-hidden="true">
+                                          <span class="lnr lnr-chevron-left"></span>
+                                      </span>
+                                  </a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="javascript:void(0)" class="page-link">01</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="javascript:void(0)" class="page-link">02</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="javascript:void(0)" class="page-link">03</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="javascript:void(0)" class="page-link">04</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="javascript:void(0)" class="page-link" aria-label="Next">
+                                      <span aria-hidden="true">
+                                          <span class="lnr lnr-chevron-right"></span>
+                                      </span>
+                                  </a>
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="blog_right_sidebar">
+                      <aside class="single_sidebar_widget search_widget">
+                          <div class="input-group">
+                              <input type="text" class="form-control" placeholder="搜尋">
+                              <span class="input-group-btn">
+                                  <button class="btn btn-default" type="button">
+                                      <i class="lnr lnr-magnifier"></i>
+                                  </button>
+                              </span>
+                          </div>
+                          <!-- /input-group -->
+                          <div class="br"></div>
+                      </aside>
+                      
+                      <aside class="single_sidebar_widget popular_post_widget">
+                          <h3 class="widget_title">熱門文章</h3>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post1.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="javascript:void(0)">
+                                      <h3>聖誕節必備禮物清單：讓你的禮物成為焦點</h3>
+                                  </a>
+                                  <p>02 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post2.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="javascript:void(0)">
+                                      <h3>完美禮物選購指南：根據對方喜好精選最佳禮物</h3>
+                                  </a>
+                                  <p>02 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post3.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="javascript:void(0)">
+                                      <h3>送禮禁忌大公開：避免這些錯誤讓你的心意更受歡迎</h3>
+                                  </a>
+                                  <p>03 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post4.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="javascript:void(0)">
+                                      <h3>2024年最新禮物趨勢解析：抓住流行脈動，選擇時尚禮物</h3>
+                                  </a>
+                                  <p>01 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="br"></div>
+                      </aside>
+                      
+                      <aside class="single_sidebar_widget post_category_widget">
+                          <h4 class="widget_title">文章類別</h4>
+                          <ul class="list cat-list">
+                              <li>
+                                  <a href="javascript:void(0)" class="d-flex justify-content-between">
+                                      <p>禮物推薦</p>
+                                      <p>37</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)" class="d-flex justify-content-between">
+                                      <p>選購指南</p>
+                                      <p>24</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)" class="d-flex justify-content-between">
+                                      <p>聖誕特輯</p>
+                                      <p>59</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)" class="d-flex justify-content-between">
+                                      <p>送禮禁忌</p>
+                                      <p>29</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)" class="d-flex justify-content-between">
+                                      <p>潮流趨勢</p>
+                                      <p>15</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)" class="d-flex justify-content-between">
+                                      <p>故事分享</p>
+                                      <p>09</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)" class="d-flex justify-content-between">
+                                      <p>DIY禮物</p>
+                                      <p>44</p>
+                                  </a>
+                              </li>
+                          </ul>
+                          <div class="br"></div>
+                      </aside>
+                      
+                      <aside class="single-sidebar-widget tag_cloud_widget">
+                          <h4 class="widget_title">標籤</h4>
+                          <ul class="list">
+                              <li>
+                                  <a href="javascript:void(0)">聖誕</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">生日</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">禁忌</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">潮流</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">故事</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">DIY</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">節日</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">創意</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">健康</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">美容</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">科技</a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)">便宜</a>
+                              </li>
+                          </ul>
+                      </aside>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--================Blog Area =================-->
+
+  <!--================Instagram Area =================-->
+  <section class="instagram_area">
+    <div class="container box_1620">
+      <div class="insta_btn">
+        <a class="btn theme_btn" href="javascript:void(0)">追蹤我們的IG</a>
+      </div>
+      <div class="instagram_image row m0">
+        <a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a>
+      </div>
+    </div>
+  </section>
+  <!--================End Instagram Area =================-->
+  
+
+  <!--================ Start footer Area  =================-->	
+  <footer class="footer">
+    <div class="footer-area">
+        <div class="container">
+            <div class="row section_gap">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets">
+                        <h4 class="footer_title large_title">我們的目標</h4>
+                        <p>
+            我們始終堅信，送禮不只是購物行為，而是一種情感的表達。因此，我們的目標是以豐富多元的好物、專屬客製化服務，
+            讓每一分心意都能完美抵達。
+          </p>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets">
+                        <h4 class="footer_title">快速連結</h4>
+                        <ul class="list">
+                            <li><a href="index.html">首頁</a></li>
+                            <li><a href="https://designcrit-c4u9ijyfz95cnwpjgt2c4q.streamlit.app">選禮達人</a></li>
+                            <li><a href="category.html">商城</a></li>
+                            <li><a href="blog.html">部落格</a></li>
+                            <li><a href="contact.html">聯絡資訊</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget instafeed">
+                        <h4 class="footer_title">創辦人</h4>
+                        <ul class="list instafeed d-flex flex-wrap">
+                            <li><img src="img/gallery/plus.png" alt="">傅子珈</li>
+                            <li><img src="img/gallery/multiply.png" alt="">黃奕誠</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets">
+                        <h4 class="footer_title">聯絡我們</h4>
+                        <div class="ml-40">
+                            <p class="sm-head">
+                                <span class="fa fa-location-arrow"></span>
+                                店面地址
+                            </p>
+                            <p>國立政治大學藝文中心 2F</p>
+
+                            <p class="sm-head">
+                                <span class="fa fa-phone"></span>
+                                電話
+                            </p>
+                            <p>
+                                886-2-5201314
+                            </p>
+
+                            <p class="sm-head">
+                                <span class="fa fa-envelope"></span>
+                                電子郵件
+                            </p>
+                            <p>
+                                designcrit04@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row d-flex">
+                <p class="col-lg-12 footer-text text-center">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+	<!--================ End footer Area  =================-->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
